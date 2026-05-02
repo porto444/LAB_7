@@ -35,6 +35,8 @@ Afin de réaliser l'Analyse Dynamique, le conteneur MobSF doit être lié à l'�
 docker run -it --rm -p 8000:8000 -e MOBSF_ANALYZER_IDENTIFIER=emulator-5554 opensecurity/mobile-security-framework-mobsf:latest
 ````
 L'interface de MobSF est ensuite accessible via : http://localhost:8000.
+<img width="1668" height="776" alt="Capture d&#39;écran 2026-04-29 165328" src="https://github.com/user-attachments/assets/e435fe01-91ac-4cde-8ebc-9f0487c98422" />
+
 
 #  Étape 2 : Méthodologie d'Audit
 ## 1. Analyse Statique
@@ -47,6 +49,7 @@ L'analyse dynamique a été initiée directement depuis MobSF. L'outil automatis
 L'installation de l'APK sur l'émulateur.
 Le lancement du serveur Frida pour le hooking.
 La configuration du proxy HTTPS global pour l'interception réseau.
+<img width="1845" height="240" alt="Capture d&#39;écran 2026-04-29 165620" src="https://github.com/user-attachments/assets/91dc0085-95a8-453e-ba3b-af524148dc87" />
 
 #  Résultats de l'Audit : Preuves de Concept (PoC)
 Au cours de l'exploration dynamique, plusieurs vulnérabilités ont été identifiées. Voici deux exemples concrets extraits de ce lab :
